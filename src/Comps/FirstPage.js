@@ -22,13 +22,12 @@ function FirstPage() {
   }, []);
   return (
     <>
-      <div className="" id="visit-wppool">
+      <div className="" id="visit-wppool"></div>
+      <div className=" d-flex flex-col firstPage">
         <div
           className="navBar"
           style={{ backgroundColor: "rgba(32, 66, 182, 1)" }}>
           <LightNavBar />
-        </div>
-        <div className=" d-flex flex-col firstPage">
           <div>
             <div class="parent">
               <div class="status">
